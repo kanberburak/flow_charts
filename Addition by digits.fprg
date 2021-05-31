@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="pc"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-03-09 08:18:04 PM"/>
+        <attribute name="created" value="cGM7TEFQVE9QLUVEQjMxR09MOzIwMjEtMDMtMDk7MDc6NTk6MDggUE07MjUzOQ=="/>
+        <attribute name="edited" value="cGM7TEFQVE9QLUVEQjMxR09MOzIwMjEtMDMtMDk7MDg6MTg6MDQgUE07MTsyNjM5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="number, a, b, c" type="Integer" array="False" size=""/>
+            <output expression="&quot;3 basamakl&#305; bir say&#305; giriniz:&quot;" newline="True"/>
+            <input variable="number"/>
+            <assign variable="a" expression="number / 100"/>
+            <assign variable="number" expression="number - (a * 100)"/>
+            <assign variable="b" expression="number / 10"/>
+            <assign variable="number" expression="number - (b * 10)"/>
+            <assign variable="c" expression="number"/>
+            <output expression="&quot;basamaklar&#305;n toplam&#305;: &quot; &amp; a + b + c&amp;&quot;dir.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

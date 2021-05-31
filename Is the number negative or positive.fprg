@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="pc"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-03-09 08:52:17 PM"/>
+        <attribute name="created" value="cGM7TEFQVE9QLUVEQjMxR09MOzIwMjEtMDMtMDk7MDg6NTA6MzYgUE07MjUzMg=="/>
+        <attribute name="edited" value="cGM7TEFQVE9QLUVEQjMxR09MOzIwMjEtMDMtMDk7MDg6NTI6MTcgUE07MTsyNjQx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <if expression="a &lt; 0">
+                <then>
+                    <output expression="&quot;the number is negative&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;the number is positive&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

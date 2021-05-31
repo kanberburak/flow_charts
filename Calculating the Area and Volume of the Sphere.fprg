@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="pc"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-03-09 07:50:11 PM"/>
+        <attribute name="created" value="cGM7TEFQVE9QLUVEQjMxR09MOzIwMjEtMDMtMDk7MDc6NDA6MTIgUE07MjUyNA=="/>
+        <attribute name="edited" value="cGM7TEFQVE9QLUVEQjMxR09MOzIwMjEtMDMtMDk7MDc6NTA6MTEgUE07MTsyNjMy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="r, area, volume" type="Real" array="False" size=""/>
+            <input variable="r"/>
+            <assign variable="area" expression="4*pi*r*r"/>
+            <output expression="area" newline="True"/>
+            <assign variable="volume" expression="(4*pi*r*r*r)/3"/>
+            <output expression="volume" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

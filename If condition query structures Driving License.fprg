@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="pc"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-03-09 09:02:07 PM"/>
+        <attribute name="created" value="cGM7TEFQVE9QLUVEQjMxR09MOzIwMjEtMDMtMDk7MDg6NTY6MTkgUE07MjUzOQ=="/>
+        <attribute name="edited" value="cGM7TEFQVE9QLUVEQjMxR09MOzIwMjEtMDMtMDk7MDk6MDI6MDcgUE07MTsyNjM2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="dLicense" type="Integer" array="False" size=""/>
+            <output expression="&quot;If you have a driver's license, press 1, or 0 if you do not have one.&quot;" newline="True"/>
+            <input variable="dLicense"/>
+            <if expression="dLicense == 1">
+                <then>
+                    <output expression="&quot;We wish you a good trip.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Sorry, you cannot continue and have to pay a fine.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

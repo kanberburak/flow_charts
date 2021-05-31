@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="pc"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-04-25 12:38:22 AM"/>
+        <attribute name="created" value="cGM7TEFQVE9QLUVEQjMxR09MOzIwMjEtMDQtMjU7MTI6Mjg6MTYgQU07MjUxNA=="/>
+        <attribute name="edited" value="cGM7TEFQVE9QLUVEQjMxR09MOzIwMjEtMDQtMjU7MTI6Mzg6MjIgQU07MTsyNjIw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="metin" type="String" array="False" size=""/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <output expression="&quot;bir metin giriniz&quot;" newline="True"/>
+            <input variable="metin"/>
+            <for variable="i" start="1" end="4" direction="inc" step="1">
+                <output expression="metin" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="pc"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-03-09 05:13:02 PM"/>
+        <attribute name="created" value="cGM7TEFQVE9QLUVEQjMxR09MOzIwMjEtMDMtMDk7MDU6MDg6MDggUE07MjUzMQ=="/>
+        <attribute name="edited" value="cGM7TEFQVE9QLUVEQjMxR09MOzIwMjEtMDMtMDk7MDU6MTM6MDIgUE07MTsyNjI5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, temp" type="Integer" array="False" size=""/>
+            <output expression="&quot;Please enter the value of A: &quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Please enter the value of B: &quot;" newline="True"/>
+            <input variable="b"/>
+            <assign variable="temp" expression="a"/>
+            <assign variable="a" expression="b"/>
+            <assign variable="b" expression="temp"/>
+            <output expression="&quot;The value of A replaced with a temporary variable: &quot; &amp; a &amp; &quot; &quot; &amp; &#13;&#10;&quot;The value of B replaced with a temporary variable: &quot; &amp; b" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="pc"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-03-09 04:08:46 PM"/>
+        <attribute name="created" value="cGM7TEFQVE9QLUVEQjMxR09MOzIwMjEtMDMtMDk7MDM6NDM6MTcgUE07MjUyOA=="/>
+        <attribute name="edited" value="cGM7TEFQVE9QLUVEQjMxR09MOzIwMjEtMDMtMDk7MDQ6MDg6NDYgUE07MTsyNjQw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi, sonuc" type="Real" array="False" size=""/>
+            <output expression="&quot;L&#252;tfen %18'ini istedi&#287;iniz say&#305;y&#305; giriniz: &quot;" newline="True"/>
+            <input variable="sayi"/>
+            <assign variable="sonuc" expression="sayi * 18 / 100"/>
+            <output expression="sayi &amp; &quot; Say&#305;s&#305;n&#305;n %18'i: &quot; &amp; sonuc &amp; &quot;'dir.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="pc"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-03-09 05:08:06 PM"/>
+        <attribute name="created" value="cGM7TEFQVE9QLUVEQjMxR09MOzIwMjEtMDMtMDk7MDQ6MDg6NTAgUE07MjUyNw=="/>
+        <attribute name="edited" value="cGM7TEFQVE9QLUVEQjMxR09MOzIwMjEtMDMtMDk7MDU6MDg6MDYgUE07MTsyNjM3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="c, f" type="Real" array="False" size=""/>
+            <output expression="&quot;Fahrenheit de&#287;erini giriniz: &quot;" newline="True"/>
+            <input variable="f"/>
+            <assign variable="c" expression="(f - 32) / 1.8"/>
+            <output expression="&quot;Celcius de&#287;eri: &quot; &amp; c" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

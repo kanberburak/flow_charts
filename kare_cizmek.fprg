@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="pc"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-04-25 12:28:14 AM"/>
+        <attribute name="created" value="cGM7TEFQVE9QLUVEQjMxR09MOzIwMjEtMDQtMjU7MTI6MTY6MTUgQU07MjUxMA=="/>
+        <attribute name="edited" value="cGM7TEFQVE9QLUVEQjMxR09MOzIwMjEtMDQtMjU7MTI6Mjg6MTQgQU07MTsyNjIw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i, j" type="Integer" array="False" size=""/>
+            <for variable="i" start="1" end="10" direction="inc" step="1">
+                <for variable="j" start="1" end="10" direction="inc" step="1">
+                    <if expression="i &gt;= 2 &amp;&amp; i &lt;= 9">
+                        <then>
+                            <if expression="j &gt;= 2 &amp;&amp; j &lt;= 9">
+                                <then>
+                                    <output expression="&quot; &quot;" newline="False"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;#&quot;" newline="False"/>
+                                </else>
+                            </if>
+                        </then>
+                        <else>
+                            <output expression="&quot;o&quot;" newline="False"/>
+                        </else>
+                    </if>
+                </for>
+                <output expression="&quot; &quot;" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

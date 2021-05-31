@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="pc"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-03-09 07:56:53 PM"/>
+        <attribute name="created" value="cGM7TEFQVE9QLUVEQjMxR09MOzIwMjEtMDMtMDk7MDc6NTA6MTMgUE07MjUyNg=="/>
+        <attribute name="edited" value="cGM7TEFQVE9QLUVEQjMxR09MOzIwMjEtMDMtMDk7MDc6NTY6NTMgUE07MTsyNjQ0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="d, r, g" type="Real" array="False" size=""/>
+            <input variable="d"/>
+            <assign variable="r" expression="d*pi/180"/>
+            <assign variable="g" expression="d*200/180"/>
+            <output expression="&quot;r: &quot; &amp; r &amp; &quot; &quot; &amp; &quot;g: &quot; &amp; g" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

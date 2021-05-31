@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="pc"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-03-09 08:55:53 PM"/>
+        <attribute name="created" value="cGM7TEFQVE9QLUVEQjMxR09MOzIwMjEtMDMtMDk7MDg6NTI6MzYgUE07MjUzNA=="/>
+        <attribute name="edited" value="cGM7TEFQVE9QLUVEQjMxR09MOzIwMjEtMDMtMDk7MDg6NTU6NTMgUE07MTsyNjQ0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="userName" type="String" array="False" size=""/>
+            <output expression="&quot;Please enter your username:&quot;" newline="True"/>
+            <input variable="userName"/>
+            <if expression="userName = &quot;burakkanber&quot;">
+                <then>
+                    <output expression="&quot;Welcome Admin&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Sorry sir, your username is wrong, Please try again.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

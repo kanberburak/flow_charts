@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="pc"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-04-25 12:47:42 AM"/>
+        <attribute name="created" value="cGM7TEFQVE9QLUVEQjMxR09MOzIwMjEtMDQtMjU7MTI6NDc6MDEgQU07MjUwOQ=="/>
+        <attribute name="edited" value="cGM7TEFQVE9QLUVEQjMxR09MOzIwMjEtMDQtMjU7MTI6NDc6MDYgQU07MTtwYztMQVBUT1AtRURCMzFHT0w7MjAyMS0wNC0yNTsxMjo0MzoxNSBBTTtzb3J1MS5mcHJnOzYyMzM="/>
+        <attribute name="edited" value="cGM7TEFQVE9QLUVEQjMxR09MOzIwMjEtMDQtMjU7MTI6NDc6NDIgQU07MTsyNjIy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="metin" type="String" array="False" size=""/>
+            <output expression="&quot;metin giriniz:&quot;" newline="True"/>
+            <input variable="metin"/>
+            <declare name="i, n" type="Integer" array="False" size=""/>
+            <output expression="&quot;ka&#231; kere yazd&#305;r&#305;ls&#305;n ?&quot;" newline="True"/>
+            <input variable="n"/>
+            <for variable="i" start="1" end="n" direction="inc" step="1">
+                <output expression="metin" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

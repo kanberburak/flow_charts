@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="pc"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-04-24 11:55:01 PM"/>
+        <attribute name="created" value="cGM7TEFQVE9QLUVEQjMxR09MOzIwMjEtMDQtMjQ7MTE6MzA6MzMgUE07MjUxOQ=="/>
+        <attribute name="edited" value="cGM7TEFQVE9QLUVEQjMxR09MOzIwMjEtMDQtMjQ7MTE6NTU6MDEgUE07MTsyNjI5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi, i, sayac" type="Integer" array="False" size=""/>
+            <assign variable="sayac" expression="0"/>
+            <assign variable="i" expression="2"/>
+            <output expression="&quot;L&#252;tfen sayi giriniz&quot;" newline="True"/>
+            <input variable="sayi"/>
+            <while expression="i &lt; sayi">
+                <if expression="sayi % i == 0">
+                    <then>
+                        <assign variable="sayac" expression="sayac + 1"/>
+                    </then>
+                    <else/>
+                </if>
+                <assign variable="i" expression="i + 1"/>
+            </while>
+            <if expression="sayac == 0">
+                <then>
+                    <output expression="&quot;Girilen say&#305; asald&#305;r.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Girilen say&#305; asal de&#287;ildir.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

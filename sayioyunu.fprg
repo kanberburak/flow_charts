@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="pc"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-04-24 11:30:27 PM"/>
+        <attribute name="created" value="cGM7TEFQVE9QLUVEQjMxR09MOzIwMjEtMDQtMjQ7MDU6NTI6NTkgQU07MjUxOQ=="/>
+        <attribute name="edited" value="cGM7TEFQVE9QLUVEQjMxR09MOzIwMjEtMDQtMjQ7MTE6MzA6MjcgUE07MjsyNjMx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="tahmin, rndSayi, i" type="Integer" array="False" size=""/>
+            <assign variable="rndSayi" expression="Random(555)"/>
+            <declare name="bildinMi, devamMi" type="Boolean" array="False" size=""/>
+            <assign variable="bildinMi" expression="False"/>
+            <assign variable="i" expression="0"/>
+            <assign variable="devamMi" expression="True"/>
+            <declare name="cevao" type="String" array="False" size=""/>
+            <assign variable="cevao" expression="&quot;e&quot;"/>
+            <while expression="devamMi == True">
+                <while expression="bildinMi == False">
+                    <assign variable="i" expression="i + 1"/>
+                    <input variable="tahmin"/>
+                    <if expression="tahmin &lt; rndSayi">
+                        <then>
+                            <output expression="&quot;l&#252;tfen b&#252;y&#252;k de&#287;er girin&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="tahmin &gt; rndSayi">
+                                <then>
+                                    <output expression="&quot;l&#252;tfen k&#252;&#231;&#252;k de&#287;er girin&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <assign variable="bildinMi" expression="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </while>
+                <output expression="&quot;CONGRATULATIONS &quot; &amp; i &amp; &quot; denemede buldunuz.&quot;" newline="True"/>
+                <output expression="&quot;&#199;&#305;kmak istiyor musunuz? E/e&quot;" newline="True"/>
+                <input variable="cevao"/>
+                <if expression="cevao == &quot;e&quot; || cevao == &quot;E&quot;">
+                    <then>
+                        <assign variable="devamMi" expression="False"/>
+                    </then>
+                    <else>
+                        <assign variable="bildinMi" expression="False"/>
+                        <assign variable="i" expression="0"/>
+                        <assign variable="rndSayi" expression="Random(555)"/>
+                    </else>
+                </if>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
